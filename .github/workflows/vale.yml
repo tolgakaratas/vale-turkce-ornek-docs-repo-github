@@ -44,4 +44,4 @@ jobs:
       - name: Pre-commit kur ve çalıştır (sadece temiz dosya)
         run: |
           pip install pre-commit
-          VALE_TURKISH_NO_SPELLING=1 pre-commit run vale-turkish --files docs/tr/giris.md
+          VALE_TURKISH_NO_SPELLING=1 pre-commit run Turkce-yazim-denetimi --files docs/tr/giris.md

@@ -32,7 +32,7 @@ repos:
   - repo: https://github.com/Denomas/Turkce-yazim-denetimi
     rev: v1
     hooks:
-      - id: vale-turkish
+      - id: Turkce-yazim-denetimi
         args: [--minAlertLevel=warning]
         files: ^docs/tr/     # Sadece Türkçe belgeleri denetle
 ```
